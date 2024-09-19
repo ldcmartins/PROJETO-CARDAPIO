@@ -1,3 +1,8 @@
+* {
+    margin: 0;
+    padding: 0;  /* colocando *{} ele é um seletor universal então tudo o que eu colocar dentor dele, vai aplicar para todo o resto do CSS.   */ 
+}
+
 :root {
 font-family: "Alice", serif; 
 line-height: 150%;
@@ -8,6 +13,10 @@ body {
     background-image: url(/arquivos/bkg-cupcake.png);
     background-size:cover;
     background-repeat: no-repeat; 
+}
+
+section + section {
+    margin-top:24px
 }
 
 #page {
@@ -23,9 +32,19 @@ img {
     border-radius: 16px;
 }
 
+main {
+    padding:24px;
+}
+
+#about p + p {
+    margin-top: 12px;
+}
+
+
 h1 {
     line-height: 140%;
     font-size: 40px;
+    margin-bottom: 4px;
 }
 
 h2 {
@@ -34,4 +53,10 @@ h2 {
 
 h1,h2 {
     color:#291B1A;
+    margin-bottom: 4px;
+    line-height: 150%;
+}
+
+ul {
+    padding-left: 24px; /*vai dar espaço para a direita > */
 }
