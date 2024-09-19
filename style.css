@@ -10,22 +10,19 @@ color:#291B1A;
 }
 
 body {
-    background-image: url(/arquivos/bkg-cupcake.png);
-    background-size:cover;
-    background-repeat: no-repeat; 
+    background-image: url(/arquivos/bg-image.png);
+    background-color: #573824;
+    background-size: cover;
 }
 
-section + section {
-    margin-top:24px
-}
 
 #page {
-   box-sizing: border-box; 
-   width: 800px;
-   padding: 24px;
-   background-color: #F0E8C2;
-   border-radius: 24px;
-   margin: 48px auto;
+    box-sizing: border-box;
+    width: 800px;
+    padding: 24px;
+    background-color: #f0e8c2;
+    border-radius: 24px;
+    margin: 48px auto 28px;
 }
 
 img {
@@ -36,15 +33,18 @@ main {
     padding:24px;
 }
 
+section + section {
+    margin-top:24px
+}
+
 #about p + p {
-    margin-top: 12px;
+    margin-top: 24px;
 }
 
 
 h1 {
     line-height: 140%;
     font-size: 40px;
-    margin-bottom: 4px;
 }
 
 h2 {
@@ -52,11 +52,21 @@ h2 {
 }
 
 h1,h2 {
-    color:#291B1A;
     margin-bottom: 4px;
+    color:#291B1A;
     line-height: 150%;
 }
 
 ul {
     padding-left: 24px; /*vai dar espaço para a direita > */
 }
+
+footer {
+    color: #F0E8C2;
+    text-align: center;
+    padding-bottom: 48px;
+  }
+
+  footer img {
+    vertical-align: middle; /*
+  }
